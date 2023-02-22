@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="detail-logo" translatesAutoresizingMaskIntoConstraints="NO" id="GRZ-R8-wNZ">
+                                <rect key="frame" x="93" y="390" width="228" height="112"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="GRZ-R8-wNZ" secondAttribute="height" multiplier="55:27" id="WkN-4p-zZv"/>
+                                </constraints>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="IMG_7799" translatesAutoresizingMaskIntoConstraints="NO" id="xhE-fW-in5">
+                                <rect key="frame" x="50" y="537" width="314" height="310"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="xhE-fW-in5" secondAttribute="height" multiplier="311:307" id="CCo-kX-g9t"/>
+                                </constraints>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="IMG_8514" translatesAutoresizingMaskIntoConstraints="NO" id="0A1-61-p7i">
+                                <rect key="frame" x="50" y="51.5" width="314" height="338.5"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="0A1-61-p7i" secondAttribute="height" multiplier="321:346" id="d51-7C-2VB"/>
+                                </constraints>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" ambiguous="YES" image="IMG_8514" translatesAutoresizingMaskIntoConstraints="NO" id="ypx-3V-1wb">
+                                <rect key="frame" x="207" y="51" width="0.0" height="338.5"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="ypx-3V-1wb" secondAttribute="height" multiplier="1663:338" id="JEL-xd-hb9"/>
+                                    <constraint firstAttribute="width" secondItem="ypx-3V-1wb" secondAttribute="height" multiplier="321:346" id="clF-ke-Qj3"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" name="good color"/>
+                        <constraints>
+                            <constraint firstItem="GRZ-R8-wNZ" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="1Cr-Rh-uWJ"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="0A1-61-p7i" secondAttribute="trailing" constant="50" id="877-fP-ID8"/>
+                            <constraint firstItem="0A1-61-p7i" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="50" id="8zV-iP-Q3H"/>
+                            <constraint firstItem="GRZ-R8-wNZ" firstAttribute="centerX" secondItem="xhE-fW-in5" secondAttribute="centerX" id="Hpm-0j-RVv"/>
+                            <constraint firstItem="xhE-fW-in5" firstAttribute="top" secondItem="0A1-61-p7i" secondAttribute="bottom" constant="147" id="Ly2-4m-CN2"/>
+                            <constraint firstItem="ypx-3V-1wb" firstAttribute="centerX" secondItem="GRZ-R8-wNZ" secondAttribute="centerX" id="Qqu-Rz-N3j"/>
+                            <constraint firstItem="xhE-fW-in5" firstAttribute="top" secondItem="GRZ-R8-wNZ" secondAttribute="bottom" constant="35" id="SnP-NN-1z8"/>
+                            <constraint firstItem="ypx-3V-1wb" firstAttribute="width" secondItem="ypx-3V-1wb" secondAttribute="height" multiplier="321:346" id="T1R-0R-h7Z"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="xhE-fW-in5" secondAttribute="bottom" constant="15" id="epg-sl-GGi"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="xhE-fW-in5" secondAttribute="trailing" constant="50" id="nsJ-b2-fL4"/>
+                            <constraint firstItem="xhE-fW-in5" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="50" id="uY3-c2-6SY"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52.173913043478265" y="375"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="IMG_7799" width="902" height="1792"/>
+        <image name="IMG_8514" width="902" height="1792"/>
+        <image name="detail-logo" width="220" height="112"/>
+        <namedColor name="good color">
+            <color red="1" green="0.34260075365972442" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>
